@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Inclusão</title>
+    <link rel="icon" href="iconejogosdeinclusao.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logojogosdeinclusao.png" alt="Logo Jogos de Inclusão" class="logo">
+        <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+        <nav id="menu">
+            <a href="https://jogosdeinclusao.github.io">Início</a>
+            <a href="https://jogosdeinclusao.github.io/Jogos">Jogar</a>
+            <a href="https://jogosdeinclusao.github.io/Sobre">Sobre</a>
+        </nav>
+    </header>
+   
+    <body> <!-- Inicio do corpo da página -->
+
+        ... <!-- Conteúdo da página -->
+      
+        <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+      </body> <!-- Fim do corpo da página -->
+
+    <div class="container">
+        <img src="quebracabeca.png" alt="Imagem do Quebra-cabeça" class="main-image"> 
+        <h1 class="welcome">Bem-vindo(a) ao Jogos de Inclusão</h1>
+        <p class="description">
+            Neste site, você encontrará uma variedade de jogos lúdicos desenvolvidos especialmente para auxiliar no aprendizado de autistas e alunos com TDAH. Esses jogos têm como objetivo principal melhorar a capacidade de memorização, utilizando atividades como jogos da memória e outras ferramentas eficazes para o treinamento da resolução de problemas matemáticos. Nosso site foi projetado para proporcionar um ambiente inclusivo e acessível, promovendo o desenvolvimento cognitivo e a diversão ao mesmo tempo.
+        </p>
+        <a class="button" href="https://jogosdeinclusao.github.io/Jogos">Jogar</a>
+
+        <p class="description">
+            Este projeto integrador visa apoiar o desenvolvimento educacional de alunos com necessidades especiais. Ajude-nos a disseminar esta iniciativa nas redes sociais e contribua para que mais estudantes possam se beneficiar. Para mais informações sobre como apoiar e participar, clique no botão "Sobre" no menu superior.
+        </p>
+
+        <h2>Atividades Recomendadas</h2>
+
+        <div class="games">
+            <div class="card">
+                <img src="Imagem/BlockDomino.webp" alt="Dominó">
+                <h3>Dominó</h3>
+                <a class="button" href="BlockDomino.html">Jogar</a>
+            </div>
+            <div class="card">
+                <img src="Imagem/TicTacToe.webp" alt="Jogo da Velha">
+                <h3>Jogo da Velha</h3>
+                <a class="button" href="TicTacToe.html">Jogar</a>
+            </div>
+            <div class="card">
+                <img src="Imagem/RapidMath.webp" alt="Matemática">
+                <h3>Matemática</h3>
+                <a class="button" href="RapidMath.html">Jogar</a>
+            </div>
+            <div class="card">
+                <img src="Imagem/SlideAndRoll.webp" alt="Jogo do Quebra-Cabeça">
+                <h3>Quebra-Cabeça</h3>
+                <a class="button" href="SlideAndRoll.html">Jogar</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jogos de Inclusão. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
